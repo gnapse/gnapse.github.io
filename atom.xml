@@ -7,6 +7,7 @@ layout: nil
     <title>{{ site.name }}</title>
     <link href="{{ site.url }}/atom.xml" rel="self"/>
     <link href="{{ site.url }}/"/>
+    <icon>{{ site.url }}/img/icon.png</icon>
     <updated>{{ site.time | date_to_xmlschema }}</updated>
     <id>{{ site.url }}</id>
     <author>
