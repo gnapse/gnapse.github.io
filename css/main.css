@@ -140,24 +140,24 @@ footer .icons a:hover {
 }
 
 /*
- * Post contents
+ * Page contents
  */
 
-.post h2 {
+.content h2 {
     margin-top: 1em;
 }
 
-.post ul {
+.content ul {
     margin: 1em 0 1em 2em;
     line-height: 1.5em;
 
 }
 
-.post li {
+.content li {
     margin: .5em 0;
 }
 
-.highlight {
+.content .highlight {
     border: 1px solid #c6c6c6;
     border-radius: .5em;
     background-color: #fafafa;
@@ -167,7 +167,7 @@ footer .icons a:hover {
     font-size: 90%;
 }
 
-code {
+.content code {
     margin: 0 2px;
     padding: 0 5px;
     border: 1px solid #c6c6c6;
@@ -176,7 +176,7 @@ code {
     font-size: 90%;
 }
 
-pre > code {
+.content pre > code {
     margin: 0;
     padding: 0;
     border: none;
