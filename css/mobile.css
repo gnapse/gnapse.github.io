@@ -1,0 +1,33 @@
+body {
+    font-size: 85%;
+}
+
+.container {
+    text-align: left;
+}
+
+ul.posts li {
+    padding: .5em 0;
+}
+
+ul.posts li time {
+    display: block;
+    text-transform: none;
+}
+
+ul.posts li time:after {
+    content: "";
+}
+
+footer {
+    text-align: left;
+}
+
+footer .copyright {
+    font-weight: normal;
+    float: none;
+}
+
+footer .icons {
+    font-size: 150%;
+}

@@ -1,0 +1,185 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #333;
+    background-color: #fff;
+    text-align: center;
+    font: 16px "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 42em;
+    text-align: justify;
+}
+
+h1, h2 {
+    margin-bottom: 1em;
+    font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif;
+}
+
+p {
+    margin: 1em 0;
+    line-height: 1.5em;
+}
+
+a         { color: #00a; }
+a:hover   { color: #000; }
+a:visited { color: #a0a; }
+
+time {
+    text-transform: uppercase;
+    color: #999;
+    font-size: 85%;
+}
+
+/*
+ * Post listing
+ */
+
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+ul.posts li {
+  line-height: 1.75em;
+}
+
+ul.posts li time:after {
+    content: " »";
+}
+
+/*
+ * Header
+ */
+
+header {
+    text-align: right;
+    margin-bottom: 2em;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit important!;
+}
+
+header h1  {
+    display: inline-block;
+    text-transform: lowercase;
+    float: left;
+    margin-bottom: 1em;
+    font-size: 150%;
+    font-weight: normal;
+}
+
+header h1 a {
+    color: #00a;
+}
+
+header nav {
+    font-size: 125%;
+    display: inline-block;
+    font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif;
+}
+
+header nav ul, header nav li {
+    list-style: none;
+}
+
+header nav ul {
+    text-align: right;
+}
+
+header nav li {
+    display: inline-block;
+}
+
+header nav a {
+    display: block;
+    padding: .25em 0 .25em .5em;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+/*
+ * Footer
+ */
+
+footer {
+    margin: 2em 0;
+    text-align: right;
+}
+
+footer .copyright {
+    padding: .5em 0;
+    float: left;
+    font-size: 85%;
+}
+
+footer .icons {
+    font-size: 150%;
+}
+
+footer .icons a {
+    color: #333;
+    text-decoration: none;
+}
+
+footer .icons a:hover {
+    color #000;
+}
+
+/*
+ * Post contents
+ */
+
+.post h2 {
+    margin-top: 1em;
+}
+
+.post ul {
+    margin: 1em 0 1em 2em;
+    line-height: 1.5em;
+
+}
+
+.post li {
+    margin: .5em 0;
+}
+
+.highlight {
+    border: 1px solid #c6c6c6;
+    border-radius: .5em;
+    background-color: #fafafa;
+    padding: .5em;
+    line-height: 1.25em;
+    font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
+    font-size: 90%;
+}
+
+code {
+    margin: 0 2px;
+    padding: 0 5px;
+    border: 1px solid #c6c6c6;
+    border-radius: 3px;
+    background-color: #fafafa;
+    font-size: 90%;
+}
+
+pre > code {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    font-size: 100%;
+}

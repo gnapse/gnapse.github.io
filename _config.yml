@@ -1,0 +1,11 @@
+name: Parking for coders only
+url: http://gnapse.github.io
+author: Ernesto García
+github: gnapse
+twitter: gnapse
+
+markdown: redcarpet
+pygments: true
+destination: .site
+permalink: :year/:month/:day/:title
+exclude: [README.md]

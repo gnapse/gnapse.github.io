@@ -1,0 +1,16 @@
+nav, footer .icons {
+    display: none !important;
+}
+
+body, .container {
+    text-align: left !important;
+}
+
+.container {
+    margin: 0 !important;
+    max-width: 100% !important;
+}
+
+header h1 {
+    float: none !important;
+}
