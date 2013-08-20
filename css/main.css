@@ -41,23 +41,6 @@ time {
 }
 
 /*
- * Post listing
- */
-
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-}
-
-ul.posts li {
-  line-height: 1.75em;
-}
-
-ul.posts li time:after {
-    content: " »";
-}
-
-/*
  * Header
  */
 
@@ -150,7 +133,6 @@ footer .icons a:hover {
 .content ul {
     margin: 1em 0 1em 2em;
     line-height: 1.5em;
-
 }
 
 .content li {
@@ -182,4 +164,21 @@ footer .icons a:hover {
     border: none;
     background-color: transparent;
     font-size: 100%;
+}
+
+/*
+ * Post listing
+ */
+
+ul.posts {
+  list-style-type: none;
+  margin: 1em 0 2em 0;
+}
+
+ul.posts li {
+  line-height: 1.75em;
+}
+
+ul.posts li time:after {
+    content: " »";
 }
