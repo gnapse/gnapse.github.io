@@ -7,3 +7,11 @@ layout: default
     </time>
     {{ content }}
 </div>
+<nav id="nextprev">
+    {% if page.previous %}
+    <a id="previous" href="{{ page.previous.url }}">{{ page.previous.title }}</a>
+    {% endif %}
+    {% if page.next %}
+    <a id="next" href="{{ page.next.url }}">{{ page.next.title }}</a>
+    {% endif %}
+</nav>

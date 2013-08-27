@@ -158,6 +158,33 @@ footer .icons a:hover {
 }
 
 /*
+ * Next/Prev post navigation
+ */
+
+#nextprev {
+    font-size: 85%;
+    margin: 2em 0;
+    clear: both;
+    overflow: hidden;
+}
+
+#nextprev #previous {
+    float: left;
+}
+
+#nextprev #next {
+    float: right;
+}
+
+#nextprev #next:after {
+    content: " »";
+}
+
+#nextprev #previous:before {
+    content: "« ";
+}
+
+/*
  * Post listing
  */
 
