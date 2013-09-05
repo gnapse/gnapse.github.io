@@ -40,6 +40,10 @@ time {
     font-size: 85%;
 }
 
+ul.posts li time, code, pre, .highlight {
+    font-family: Inconsolata, Consolas, Menlo, Monaco, monospace;
+}
+
 /*
  * Header
  */
