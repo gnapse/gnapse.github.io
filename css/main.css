@@ -201,6 +201,20 @@ ul.posts li {
   line-height: 1.75em;
 }
 
-ul.posts li time:after {
-    content: " »";
+ul.posts li h2, ul.posts li p {
+    margin-bottom: .25em
+}
+
+ul.posts li h2 a {
+    color: #333;
+    text-decoration: none;
+}
+
+ul.posts li time {
+    float: right;
+}
+
+ul.posts li .more {
+    font-size: 85%;
+    text-decoration: none;
 }
