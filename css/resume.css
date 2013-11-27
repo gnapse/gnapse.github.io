@@ -1,0 +1,184 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #333;
+    background-color: #fff;
+    text-align: center;
+    font: 16px "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 1em;
+    max-width: 42em;
+    text-align: left;
+}
+
+h1, h2 {
+    font-family: "Yanone Kaffeesatz", Helvetica, Arial, sans-serif;
+}
+
+a         { color: #00a; }
+a:visited { color: #a0a; }
+a:hover   { color: #aa0; }
+
+time {
+    text-transform: uppercase;
+    color: #999;
+    font-size: 85%;
+}
+
+/*
+ * Header
+ */
+
+.container > header {
+    margin-bottom: 1em;
+}
+
+.container > header h1 {
+    float: right;
+}
+
+.container > header > * {
+    font-size: 200%;
+}
+
+/*
+ * Sections layout
+ */
+
+.content > section {
+    clear: both;
+    overflow: hidden;
+    margin-bottom: 2px;
+    background-color: #f0f0f0;
+}
+
+.content > section > header {
+    float: left;
+    width: 20%;
+    margin: 0;
+}
+
+.content > section > header h1 {
+    font-weight: normal;
+    text-transform: none;
+    float: none;
+}
+
+.content > section > section {
+    float: right;
+    width: 80%;
+    background-color: #fff;
+}
+
+.content > section > * > div {
+    padding: .5em;
+}
+
+.content > section ul {
+    margin: 0 0 1em 1.5em;
+}
+
+.content > section li {
+    margin: .5em 0;
+}
+
+/*
+ * Experience and education
+ */
+
+#experience div > ul, #education div > ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.workplace {
+    position: relative;
+    margin: 0 0 1em 0 !important;
+}
+
+.workplace .name:after {
+    content: " — "; /* &mdash; */
+}
+
+.date-range time:first-child:after {
+    content: " – "; /* &ndash; */
+}
+
+.workplace .name, .workplace .location {
+    font-family: "Yanone Kaffeesatz";
+    font-size: 150%;
+    font-weight: bold;
+    display: inline;
+}
+
+.workplace .date-range {
+    padding: .25em 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.workplace .website {
+    font-size: 85%;
+    text-decoration: none;
+}
+
+/*
+ * Extras
+ */
+
+#extras li {
+    font-size: 85%;
+    margin: .25em 0;
+}
+
+#profiles a {
+    text-decoration: none;
+}
+
+/*
+ * Mobile
+ */
+
+@media only screen and (max-width: 960px) {
+    .container > header h1 {
+        float: none;
+    }
+
+    .container > header > h2 {
+        font-size: 85%;
+    }
+
+    .content > section > header, .content > section > section {
+        float: none;
+        width: 100%;
+    }
+
+    .workplace .name:after {
+        content: none;
+    }
+
+    .workplace .name, .workplace .location {
+        display: block;
+    }
+
+    .workplace .date-range {
+        padding: 0;
+        position: static;
+    }
+
+    .workplace .location {
+        font-family: inherit;
+        font-size: 100%;
+    }
+}
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>{{ site.author }} &mdash; Resume</title>
+        {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+        <meta name="author" content="{{ site.author }}">
+
+        <!-- Enable responsive viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="/css/resume.css" media="all">
+
+        <link rel="icon" href="/img/icon.png" />
+        <link rel="apple-touch-icon" href="/img/apple-touch-icon.png" />
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Resume</h1>
+                <h2>{{ site.author }} &mdash; Software Developer</h2>
+            </header>
+            <div class="content">
+                {{ content }}
+            </div>
+        </div>
+    </body>
+</html>
