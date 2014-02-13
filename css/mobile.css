@@ -6,17 +6,21 @@ body {
     text-align: left;
 }
 
-ul.posts li {
+.posts article {
     padding: .5em 0;
 }
 
-ul.posts li time {
+.posts article header h2 {
     display: block;
-    text-transform: none;
+    float: none;
 }
 
-ul.posts li time:after {
-    content: "";
+.post article header, .posts article header {
+    text-align: left;
+}
+
+.posts article time {
+    display: block;
 }
 
 footer {

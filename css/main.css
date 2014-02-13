@@ -40,7 +40,7 @@ time {
     font-size: 85%;
 }
 
-ul.posts li time, code, pre, .highlight {
+article time, code, pre, .highlight {
     font-family: Inconsolata, Consolas, Menlo, Monaco, monospace;
 }
 
@@ -48,9 +48,12 @@ ul.posts li time, code, pre, .highlight {
  * Header
  */
 
+.container > header {
+    margin-bottom: 2em;
+}
+
 header {
     text-align: right;
-    margin-bottom: 2em;
 }
 
 header a {
@@ -121,7 +124,7 @@ footer .icons a:hover {
  * Page contents
  */
 
-.content h2 {
+.content .post h2 {
     margin-top: 1em;
 }
 
@@ -192,29 +195,39 @@ footer .icons a:hover {
  * Post listing
  */
 
-ul.posts {
-  list-style-type: none;
-  margin: 1em 0 2em 0;
+.posts {
+    list-style-type: none;
+    margin: 1em 0 2em 0;
 }
 
-ul.posts li {
-  line-height: 1.75em;
+.posts article {
+    line-height: 1.75em;
+    margin-bottom: 2em;
 }
 
-ul.posts li h2, ul.posts li p {
+.post article header {
+    text-align: right;
+}
+
+.posts article header h2, .posts article p {
     margin-bottom: .25em
 }
 
-ul.posts li h2 a {
+.posts article header h2 a {
     color: #333;
     text-decoration: none;
 }
 
-ul.posts li time {
-    float: right;
+.posts article header h2 {
+    display: inline-block;
+    float: left;
 }
 
-ul.posts li .more {
+.posts article header time {
+    display: inline-block;
+}
+
+.posts article .more {
     font-size: 85%;
     text-decoration: none;
 }
