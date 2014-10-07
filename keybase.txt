@@ -1,0 +1,83 @@
+==================================================================
+https://keybase.io/gnapse
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://gnapse.github.io
+  * I am gnapse (https://keybase.io/gnapse) on keybase.
+  * I have a public key with fingerprint 7417 4C2C 0B64 1B26 1A02  762B CFC2 9BCD 51E7 6DAF
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.2"
+        },
+        "key": {
+            "fingerprint": "74174c2c0b641b261a02762bcfc29bcd51e76daf",
+            "host": "keybase.io",
+            "key_id": "CFC29BCD51E76DAF",
+            "uid": "1e8b047ab7f7c8fc93b2386735a0cd00",
+            "username": "gnapse"
+        },
+        "merkle_root": {
+            "ctime": 1412688223,
+            "hash": "3442740e6718c1f5fcda597fb4858bea833f9dce7badd85c7ace7a84d3ccd3628a5b9dc18200b38337549bcd5eb91a9033d3419bb65ddfc5d50ffc2cc6251e9b",
+            "seqno": 73424
+        },
+        "service": {
+            "hostname": "gnapse.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1412688308,
+    "expire_in": 157680000,
+    "prev": "f74eb2611adcdff429cb134cda89bc847aa2a32f6e16559cb9119cc77c4b0fee",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+owFVUn1QFVUcfRhSPXCEnMICzVYq+ZjXfn+8QacUFUgqzFEk47H37l3YeLx97C4g
+g0pmFBg4YBIQM01iaSYTjaOCDmBACoWKQ6Fm+YE6Cak440yDZFh3iabcv+7ec+65
+v3POrZrxkMMZ0N/VcDL1em5zQN8IcKxiRg4UE0BXigh3MQG9GvJZ9son5yLCTeSg
+IiCbyKXp83y6glxvmfOmOHFEATJMTfdhFukSXDSxMc6m24dVzZeFDL+h2VqEwFIC
+C2lIAp6lAM1TMkkLPA2gCmkJQIWjkMArsools3XTeuBWYlLToyl4d8myJbS0eEkC
+Ry0V+ISXlmEsfxKgkAhIVpCBoApQVKHEAJoReYHhZBIqJGkTTWRMWcryyX4T2dPm
+IiPHizyGrk9ahpZmEyiWonlRpGkGzyOb2fgIw7K0wJKIFygRUiqnQkXmJEEFrMiJ
+AMkiw6iSApEAZEUROSjIeC2LrMJAqDA8LcocwDgl0iQJGMwWOHbSOQISJUskwygM
+S0kA8JyiqJBTOFLF4UDI0zgcCWADJsrz6YRbYFia3Wj/GgUaRPbYdmYPWHNlaVZ2
+PvgnPb+hWzrUvRjNtiy/6baNW0V+m16ImoFnSskDNJ+Ca/t/rxSmPhgKQ4pxBFrv
+1wzk0WwGJ/AiiT/7IlSANVWBRXbHlKxARVVZWoKAYlgcmIgdi7glmZYZWuURxXMc
+BiWKkiAUBMgCUkXoP6scnlPOwpKmhn1Z+QburHxaZKAjwOkImj7NfrgO56Oh/77m
+CFeoo6wmXT/0yI5bM261b1nwvTc2s8aIfM3dXttb+evD6274Cg5FKb5M//2FuvOa
+M//1AafrhaTqkt/yynr+PLjn/R/a1l4YWtgz9FRw7v7k1vzeb87NXhA1/7uflv+y
+erN7R07rvrSVK3OTx8Iy0v3bhIqQsU8vjn9W3XF4LwwMYVPrg7dUldclUulzm1ds
+vbCmrOHU4TNZV4Y/2L7F6g9ZdCeye/SLNdnd5ccFLT5DHd20O6mR86iuZE9o0Ifk
+3N+Tn7vhbSlNCxrtVKOW70nsHJvwjg9uS93srqidf2LOqR6T/sPVfunpmGBr+Lh1
+fmOw4/Fp1/IGV2Ve/euQGX5Mux375eK6unfuVt9pmJVb2hFRWO97M3RdbfEndZ8P
+p3fefWPTxxVHgwdnbRo7nepMqCtJSWrpe+XKjCNVNb3H5LGyd/dfyth1p8l/8+Zj
+lc/mRIJLL5+PLbk80fHVWuBJa9rKzgw5cfZyzO6vf6yODt9+LyEiZ2/lzhdrzq54
+9dqc4W93CUWJu6bfi24asJQNzye93XTVPXS9sUsZm12/yPtRecyFlrCq0bzemYUD
+BRNd4SHUBmtndFTj/dP9TwzVxLemBG4efRKwpWEN60smEs61FfWPp1cokYNpfSmV
+EZEnifiVR4pT1Pi5HQeyMi4yR0MyVycC6z2mdvz25RF/38j40isH27rPPVO3L8f1
+s9F95uDf
+=9SIq
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/gnapse
+
+==================================================================
