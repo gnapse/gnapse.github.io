@@ -12,7 +12,7 @@ even after using it for years, one can still find some of these little things
 here and there, that you did not know about.  Today was one of those days for
 me.
 
-[designed to make programmers happy]: http://quoty.me/quotes/209
+[designed to make programmers happy]: http://siliconangle.com/blog/2011/08/31/qa-with-yukihiro-matz-matsumoto-the-creator-of-ruby/
 
 It turns out that the syntax for specifying class inheritance in Ruby, bares
 some resemblance to the syntax for testing wether two classes are related by
