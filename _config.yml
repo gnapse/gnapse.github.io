@@ -5,7 +5,7 @@ github: gnapse
 twitter: gnapse
 
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 destination: .site
 permalink: :year/:month/:day/:title
 exclude: [README.md]
